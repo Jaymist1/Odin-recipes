@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #761a8d;
+    margin: 12px;
+}
+.header h1{
+    background-color: whitesmoke;
+    color: #761a8d;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+.header h1 img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.fig-image{
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fig-image img {
+    width: 700px;
+    height: 450px;
+    border-radius: 16px;
+}
+.fig-image figcaption {
+    margin-top: 10px;
+    color: whitesmoke;
+    font-style: italic;
+}
+.ingredients{
+    border-radius: 8px;
+    padding: 8px;
+    background: whitesmoke;
+    color: #761a8d;
+}
+.ingredients h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 5px;
+    text-decoration: underline;
+}
+.ingredients p{
+    font-size: large;
+    font-weight: 800;
+    text-indent: 10px;
+    margin: 5px;
+    text-indent: 20px;
+}
+span{
+    font-size: large;
+    margin: 4px;
+    font-weight: 800;
+}
+ul li {
+    list-style: none;
+}
+section.how-homefries{
+    margin: 8px;
+    color: whitesmoke;
+}
+section.how-homefries h2{
+ text-align: center;
+ text-decoration: underline;
+ color: whitesmoke;
+}
+section ol li{
+    margin: 5px;
+    list-style-type: none;
+}
+footer{
+    border-radius: 5px;
+    padding: 4px;
+    height: 30px;
+    background: whitesmoke;
+    text-align: center;
+    margin: 25px;
+    font-size: 20px;
+}
